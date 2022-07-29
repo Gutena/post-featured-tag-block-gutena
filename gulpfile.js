@@ -12,7 +12,7 @@ var zipPath = [ './', './**', './build', './build/**', '!./src', '!./src/**', '!
 
 // Clean CSS, JS and ZIP
 function clean_files() {
-    let cleanPath = [ './output/post-featured-tag-block-gutena.zip' ];
+    let cleanPath = [ './output/post-featured-tag-block-by-gutena.zip' ];
     return del( cleanPath, { force : true } ); 
 }
 
@@ -30,7 +30,7 @@ function create_pot() {
 // Create ZIP file
 function create_zip() {
     return gulp.src( zipPath, { base : '../' } )
-        .pipe( zip( 'post-featured-tag-block-gutena.zip' ) )
+        .pipe( zip( 'post-featured-tag-block-by-gutena.zip' ) )
         .pipe( gulp.dest( './output/' ) )
 }
 
