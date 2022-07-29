@@ -42,7 +42,7 @@ If you like this plugin, consider exploring our other themes and plugins:
 
 1. Visit 'Plugins > Add New'.
 1. Search for 'Post Featured Tag Block by Gutena' and install it.
-1. Or you can upload the `post-featured-tag-block-gutena` folder to the `/wp-content/plugins/` directory manually.
+1. Or you can upload the `post-featured-tag-block-by-gutena` folder to the `/wp-content/plugins/` directory manually.
 1. Activate Post Featured Tag Block by Gutena from your Plugins page.
 
 == Changelog ==
