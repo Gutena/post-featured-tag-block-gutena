@@ -8,19 +8,21 @@ Requires PHP: 5.6
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 
-Post Featured Tag Block use to add custom featured or new tag on post based on post date.
-
 == Description ==
-
-Post Featured Tag Block use to add custom featured or new tag on post based on post date.
 
 ### Post Featured Tag Block by Gutena
 
-#### What does this plugin do?
+Post Featured tag block use to add custom featured or new tag on post based on post date.
 
 #### Compatibility
 
 * This plugin is fully compatible with WordPress Version 5.8 and beyond and also compatible with any WordPress theme.
+
+## 🌐 Our Blocks
+
+If you like this plugin, consider exploring our other block plugins:
+
+🧱 [Newsletter Block by Gutena](https://wordpress.org/plugins/newsletter-block-by-gutena/) - Easily and instantly add Newsletter Block to your Gutenberg Editor.
 
 ## 🌐 Our Products
 
