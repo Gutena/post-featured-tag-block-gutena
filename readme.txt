@@ -24,6 +24,8 @@ If you like this plugin, consider exploring our other block plugins:
 
 🧱 [Newsletter Block by Gutena](https://wordpress.org/plugins/newsletter-block-by-gutena/) - Easily and instantly add Newsletter Block to your Gutenberg Editor.
 
+🧱 [PhotoFeed Block by Gutena](https://wordpress.org/plugins/photofeed-block-by-gutena/) - Display Instagram Photos from your Instagram accounts, either in the same single feed or in multiple different ones.
+
 ## 🌐 Our Products
 
 If you like this plugin, consider exploring our other themes and plugins:
