@@ -1,16 +1,16 @@
-=== Post Featured Tag Block by Gutena ===
+=== Gutena Recent Post Tag ===
 Contributors: expresstech, infosatech
-Tags: featured tag, new tag
+Tags: featured tag, new tag, query, query loop, post template, block
 Requires at least: 5.8
 Tested up to: 6.0
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 Requires PHP: 5.6
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 
 == Description ==
 
-### Post Featured Tag Block by Gutena
+### Gutena Recent Post Tag
 
 Post Featured tag block use to add custom featured or new tag on post based on post date.
 
@@ -22,9 +22,13 @@ Post Featured tag block use to add custom featured or new tag on post based on p
 
 If you like this plugin, consider exploring our other block plugins:
 
-🧱 [Newsletter Block by Gutena](https://wordpress.org/plugins/newsletter-block-by-gutena/) - Easily and instantly add Newsletter Block to your Gutenberg Editor.
+🧱 [Gutena Newsletter](https://wordpress.org/plugins/newsletter-block-by-gutena/) - Easily and instantly add Newsletter Block to your Gutenberg Editor.
 
-🧱 [PhotoFeed Block by Gutena](https://wordpress.org/plugins/photofeed-block-by-gutena/) - Display Instagram Photos from your Instagram accounts, either in the same single feed or in multiple different ones.
+🧱 [Gutena Accordion](https://wordpress.org/plugins/gutena-accordion/) - Easily and instantly add Accordion Block to your Gutenberg Editor.
+
+🧱 [Gutena Forms](https://wordpress.org/plugins/gutena-forms/) - Gutena Forms is a native form block for Gutenberg. Built for Look, Speed and Functionality.
+
+🧱 [Gutena PhotoFeed](https://wordpress.org/plugins/photofeed-block-by-gutena/) - Display Instagram Photos from your Instagram accounts, either in the same single feed or in multiple different ones.
 
 ## 🌐 Our Products
 
@@ -45,11 +49,16 @@ If you like this plugin, consider exploring our other themes and plugins:
 == Installation ==
 
 1. Visit 'Plugins > Add New'.
-1. Search for 'Post Featured Tag Block by Gutena' and install it.
+1. Search for 'Gutena Recent Post Tag' and install it.
 1. Or you can upload the `post-featured-tag-block-by-gutena` folder to the `/wp-content/plugins/` directory manually.
-1. Activate Post Featured Tag Block by Gutena from your Plugins page.
+1. Activate Gutena Recent Post Tag from your Plugins page.
 
 == Changelog ==
+
+= 1.0.1 =
+Release Date: September 2, 2022
+
+* Added: New Icon and Banner.
 
 = 1.0.0 =
 

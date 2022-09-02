@@ -20,7 +20,7 @@ function create_pot() {
     return gulp.src( potPath )
         .pipe( wpPot( {
             domain: 'post-featured-tag-block-gutena',
-            package: 'Post Featured Tag Block by Gutena',
+            package: 'Gutena Recent Post Tag',
             copyrightText: 'ExpressTech',
             ignoreTemplateNameHeader: true
         } ) )
