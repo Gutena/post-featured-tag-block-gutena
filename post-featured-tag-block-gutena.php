@@ -1,8 +1,8 @@
 <?php // @codingStandardsIgnoreLine
 /**
- * Plugin Name:     Gutena Recent Post Tag
- * Description:     Post Featured tag block use to add custom featured or new tag on post based on post date.
- * Version:         1.0.1
+ * Plugin Name:     Gutena Recent Post Custom Tag
+ * Description:     A WordPress Plugin that adds a custom tag to your recent post like Must Read, Featured, Hot, Top News, Popular etc. It helps you to attract the visitors to your Recent post in the best way possible.
+ * Version:         1.0.2
  * Author:          ExpressTech
  * License:         GPL-2.0-or-later
  * License URI:     https://www.gnu.org/licenses/gpl-2.0.html
@@ -30,7 +30,7 @@ if ( ! class_exists( 'Gutena_Post_Featured_Tag' ) ) {
 		 *
 		 * @var string
 		 */
-		public $version = '1.0.1';
+		public $version = '1.0.2';
 
 		/**
 		 * Instance of this class.

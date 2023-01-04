@@ -2,26 +2,32 @@ import { __ } from '@wordpress/i18n';
 import { useSelect } from '@wordpress/data';
 import { useEntityProp, store as coreStore } from '@wordpress/core-data';
 import { PanelBody, ToggleControl, RangeControl } from '@wordpress/components';
-import { InspectorControls, InnerBlocks, useBlockProps } from '@wordpress/block-editor';
+import { InspectorControls, useBlockProps, useInnerBlocksProps } from '@wordpress/block-editor';
 
 const BLOCK_TEMPLATE = [
-	["core/buttons"]
+	[ "core/buttons" ]
 ];
 
 export default function edit( { attributes, context, setAttributes } ) {
-    const blockProps = useBlockProps();
+    const { latestPost, hideAfter } = attributes;
+    const blockProps = useBlockProps( {
+        className: 'post-featured-tag-block-gutena',
+    } );
+    const innerBlocksProps = useInnerBlocksProps( blockProps, {
+        template: BLOCK_TEMPLATE
+    } );
 
     const inspectorControls = (
         <InspectorControls key="settings">
             <PanelBody title={ __( 'Settings', 'post-featured-tag-block-gutena' ) }>
                 <ToggleControl
                     label={ __( 'Show Tag only on Latest Post', 'post-featured-tag-block-gutena' ) }
-                    checked={ attributes.latestPost }
-                    onChange={ () => setAttributes( { latestPost: ! attributes.latestPost } ) }
+                    checked={ latestPost }
+                    onChange={ () => setAttributes( { latestPost: ! latestPost } ) }
                 />
                 <RangeControl
                     label={ __( 'Hide Tag after (in days)', 'post-featured-tag-block-gutena' ) }
-                    value={ attributes.hideAfter }
+                    value={ hideAfter }
                     onChange={ ( value ) => setAttributes( { hideAfter: value } ) }
                     min={ 0 }
                     max={ 30 }
@@ -76,14 +82,7 @@ export default function edit( { attributes, context, setAttributes } ) {
 	return (
         <>
             { inspectorControls }
-            { visible
-                ?  <div { ...blockProps }>
-                        <InnerBlocks
-                            template={ BLOCK_TEMPLATE }
-                        />
-                    </div>
-                : <></>
-            }
+            { visible && <div { ...innerBlocksProps } /> }
         </>
 	);
 }

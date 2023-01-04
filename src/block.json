@@ -2,8 +2,9 @@
 	"$schema": "https://schemas.wp.org/trunk/block.json",
 	"apiVersion": 2,
 	"name": "gutena/post-featured-tag",
-	"title": "Post Featured Tag",
+	"title": "Recent Post Custom Tag",
 	"category": "gutena",
+	"keywords": [ "custom tag", "recent post tag", "post tag", "featured tag", "news post tag" ],
 	"description": "Post featured tag block use to add custom featured or new tag on post based on post date.",
 	"textdomain": "post-featured-tag-block-gutena",
 	"supports": {
