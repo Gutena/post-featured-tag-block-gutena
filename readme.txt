@@ -3,7 +3,7 @@ Contributors: expresstech, infosatech
 Tags: custom tag, recent post tag, post tag, featured tag, news post tag
 Requires at least: 5.8
 Tested up to: 6.1
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 Requires PHP: 5.6
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
@@ -12,9 +12,13 @@ License URI: http://www.gnu.org/licenses/gpl.html
 
 A WordPress Plugin that adds a custom tag to your recent post like Must Read, Featured, Hot, Top News, Popular etc. It helps you to attract the visitors to your Recent post in the best way possible.
 
+[youtube https://www.youtube.com/watch?v=6C5RQ3rF_OI]
+
 == Other Blocks From Gutena ==
 
 If you like this plugin, consider exploring our other block plugins: 
+
+[Gutena Tabs](https://wordpress.org/plugins/gutena-tabs/) - A simple and easy-to-use WordPress plugin which allows you to create beautiful tabs in your posts and pages.
 
 [Gutena Newsletter](https://wordpress.org/plugins/newsletter-block-by-gutena/) - Easily and instantly add Newsletter Block to your Gutenberg Editor.
 
@@ -50,6 +54,12 @@ If you like this plugin, consider exploring our other themes and plugins:
 1. Activate Gutena Recent Post Tag from your Plugins page.
 
 == Changelog ==
+
+= 1.0.3 =
+Release Date: February 10, 2023
+
+* Added: Demo Video in Readme file.
+* Added: Gutena Kit CTA.
 
 = 1.0.2 =
 Release Date: January 4, 2022
