@@ -2,8 +2,9 @@
 /**
  * Plugin Name:     Gutena Recent Post Custom Tag
  * Description:     A WordPress Plugin that adds a custom tag to your recent post like Must Read, Featured, Hot, Top News, Popular etc. It helps you to attract the visitors to your Recent post in the best way possible.
- * Version:         1.0.2
+ * Version:         1.0.3
  * Author:          ExpressTech
+ * Author URI:      https://expresstech.io
  * License:         GPL-2.0-or-later
  * License URI:     https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:     post-featured-tag-block-gutena
@@ -30,7 +31,7 @@ if ( ! class_exists( 'Gutena_Post_Featured_Tag' ) ) {
 		 *
 		 * @var string
 		 */
-		public $version = '1.0.2';
+		public $version = '1.0.3';
 
 		/**
 		 * Instance of this class.
@@ -142,4 +143,9 @@ if ( ! function_exists( 'gutena_featured_tag_init' ) ) {
 
 	// Start it.
 	gutena_featured_tag_init();
+}
+
+// Gutena Ecosystem init.
+if ( file_exists( __DIR__ . '/includes/gutena/gutena-ecosys-onboard/gutena-ecosys-onboard.php' ) ) {
+	require_once  __DIR__ . '/includes/gutena/gutena-ecosys-onboard/gutena-ecosys-onboard.php';
 }
