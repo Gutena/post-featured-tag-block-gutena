@@ -60,7 +60,6 @@ Release Date: February 10, 2023
 
 * Added: Demo Video in Readme file.
 * Added: Gutena Kit CTA.
-* Fixed: CSS is not applying on some installations.
 
 = 1.0.2 =
 Release Date: January 4, 2022
